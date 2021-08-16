@@ -4,14 +4,17 @@
 
 32G内存
 
-# free -h
+```bash
+free -h
               total        used        free      shared  buff/cache   available
 Mem:            31G        327M         24G         53M        6.4G         30G
 Swap:            0B          0B          0B
+```
 
 至强8处理器
 
-# cat /proc/cpuinfo
+```bash
+cat /proc/cpuinfo
 processor	: 0
 vendor_id	: GenuineIntel
 cpu family	: 6
@@ -39,5 +42,6 @@ cache_alignment	: 64
 address sizes	: 42 bits physical, 48 bits virtual
 power management
 ...
+```
 
 
